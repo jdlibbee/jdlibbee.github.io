@@ -1,32 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
 </head>
 <body>
-    <image id="background" src="assets/images/542e07c1 (1).png"></image>
-    <div id="header">
-        <h1>Justin Libbee</h1>
-    </div>
-    <div id ="nav">
-        <a href="">About</a>
-        <a href="">Portfolio</a>
-        <a href="">Contact</a>
-    </div>
-    <div id="bio">
-        <div id="header2">
+    <header id=masthead>
+    <div class="container">
+        <a href="index.html" id="logo">Justin Libbee</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+<div id="main-container" class="container">
+   <section class="main-section">
         <h1>Portfolio</h1>
-        </div>
-        <div id="image">
-            <image id="me" src="assets/images/me.jpg" alt="Justin Libbee"></image>
-        </div>
+        <div class="work">
+            <image id="me" src="http://lorempixel.com/400/200" calss="auth-image" alt="hangman">
         
-    </div>
-    <div id="footer">Copyright &copy;</div>
+            <h3>Hangman</h3>
+        </div>
+        <div class="work">
+            <image id="me" src="http://lorempixel.com/g/400/200" calss="auth-image" alt="RPG-Game">
+        
+            <h3>RPG Game</h3>
+        </div>
+        <div class="work">
+            <image id="me" src="http://lorempixel.com/400/200" calss="auth-image" alt="Trivia-Game">
+        
+            <h3>Trivia Game</h3>
+        </div>
+        <div class="work">
+            <image id="me" src="http://lorempixel.com/g/400/200" calss="auth-image" alt="Rutgers-Info-Widget">
+        
+            <h3>Rutgers Info Widget</h3>
+        </div>
+        <div class="work">
+            <image id="me" src="http://lorempixel.com/400/200" calss="auth-image" alt="Rock-Paper-Scissors">
+        
+            <h3>Rock Paper Scissors</h3>
+        </div>
+                
+    </section>
+</div>    
+    <footer>
+        <div class="container">
+            &copy; Copyright 2018 Justin Libbee
+        </div>
+    </footer>
+    
 </body>
 </html>

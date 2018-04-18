@@ -1,38 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact Me</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
 </head>
 <body>
-    <div id="header">
-        <h1>Justin Libbee</h1>
-    </div>
-    <div id ="nav">
-         <a href="">About</a>
-        <a href="">Portfolio</a>
-        <a href="">Contact</a>
-    </div>
-    <div id="bio">
-        <div id="header2">
-            <h1>Contact</h1>
+    <header id=masthead>
+    <div class="container">
+        <a href="index.html" id="logo">Justin Libbee</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-        <div id="Form">
-            <form>
+    </header>
+<div id="main-container" class="container"></div>
+   <section class="main-section">
+        <h1>Conact</h1>
+        <form>
                 Name: <br>
                 <input type="text" name="fullname"><br>
                 Email: <br>
                 <input type="text" name="email"><br>
                 Message: <br>
-                <textarea name="message" rows="20" cols="100"></textarea><br>
+                <textarea name="message" rows="20" cols="95"></textarea><br>
                 <input type="submit" value="Submit">
             </form>
+                
+    </section>
+</div>   
+    <footer>
+        <div class="container">
+            &copy; Copyright 2018 Justin Libbee
         </div>
-    </div>
-    <div id="footer">Copyright &copy;</div>
+    </footer>
+    
 </body>
 </html>
+            
+      
