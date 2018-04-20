@@ -130,6 +130,12 @@ footer {
     line-height: 30px;
     margin-bottom: 0;
     font-weight: 300;
+    cursor: pointer;
+}
+.background-switch:hover {
+    background-color: #5C7199;
+    color: #FF9C72;
+    opacity: .8;
 }
 #contact-form ul {
     margin-bottom: 20px;
