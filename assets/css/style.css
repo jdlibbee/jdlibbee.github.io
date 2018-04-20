@@ -71,6 +71,11 @@ nav a {
     padding-left: 15px;
     line-height: 18px;
 }
+nav a:hover {
+    color: #FF9C72;
+    background-color: #5C7199;
+    margin: 10px;
+}
 nav a:first-child {
     border-left: 0 none;
 }
