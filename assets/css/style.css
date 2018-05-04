@@ -36,12 +36,12 @@ h2, h3 {
     font-size: 22px;
 }
 #masthead {
-    background: #fff;
+    background: #666;
     margin: 0 0 30px;
     z-index: 99;
     color: #fff;
     overflow: auto;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #CC3014;
     position: fixed;
     width: 100%;
 }
@@ -63,7 +63,7 @@ nav {
     margin-top: 25px;
 }
 nav a {
-    color: #999;
+    color: white;
     text-decoration: none;
     margin-left: -3px;
     display: inline-block;
@@ -98,6 +98,10 @@ nav a:first-child {
     margin-top: 10px;
     float: left;
     margin-right: 25px;
+}
+#trivia, #RPG, #Widget, #RPS, #Hangman{
+    width: 100%; 
+    height: 200px;
 }
 footer {
     background: #666;
